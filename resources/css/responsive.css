@@ -1,0 +1,32 @@
+@media (max-width: 800px) {
+    header{
+      flex-direction: column;
+    }
+
+    header nav ul {
+        justify-content : center;
+    }
+
+    #event_banner{
+        flex-direction: column-reverse;
+        height: auto;
+    }
+
+    #event_banner_description, #event_banner_image{
+        width: 100%;
+    }
+
+
+    #events{
+        flex-direction: column;
+    }
+
+    .event{
+        width: 100%;
+        margin:10px 0;
+    }
+
+    .event_button{
+        margin: 0;
+    }
+}
